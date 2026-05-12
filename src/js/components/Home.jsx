@@ -1,12 +1,12 @@
 import React from "react";
 
 const Home = (props) => {
-   
+
     let unit = props.seconds.toString().padStart(6, "0");
 
     return (
         <div className="bigCounter">
-            <div className="calendar">
+            <div className="digit">
                 <i className="far fa-clock"></i>
             </div>
             <div className="digit">{unit[0]}</div>
