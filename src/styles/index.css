@@ -1,11 +1,32 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
 
-*/
+
+.bigCounter {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    color: white;
+    font-size: 80px;
+    font-family: sans-serif;
+}
+
+.digit {
+    background: #1a1a1a;
+    margin: 5px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    min-width: 90px;
+    text-align: center;
+}
+
+.fa-clock {
+    color: white;
+}

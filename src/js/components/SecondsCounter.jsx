@@ -1,14 +1,12 @@
 import React from "react";
 
-const Home = (props) => {
-   
+const SecondsCounter = (props) => {
+
     let unit = props.seconds.toString().padStart(6, "0");
 
     return (
         <div className="bigCounter">
-            <div className="calendar">
-                <i className="far fa-clock"></i>
-            </div>
+            <div className="calendar"><i className="far fa-clock"></i></div>
             <div className="digit">{unit[0]}</div>
             <div className="digit">{unit[1]}</div>
             <div className="digit">{unit[2]}</div>
@@ -19,4 +17,4 @@ const Home = (props) => {
     );
 };
 
-export default Home;
+export default SecondsCounter;
