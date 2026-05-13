@@ -7,7 +7,7 @@ import Home from './components/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-let seconds = 99997;
+let seconds = 0;
 
 setInterval(() => {
   root.render(
